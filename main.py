@@ -7,7 +7,7 @@ from db import get_conn  # get_conn() abre una conexión a PostgreSQL
 app = FastAPI(title="Mi API (CRUD sencillo)")  # crea la aplicación (servidor web)
 
 #mi primer cambio
-
+#mi primer comentario
 
 # Modelo para el BODY del POST (crear)
 class FormularioCreate(BaseModel):
